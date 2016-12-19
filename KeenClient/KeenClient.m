@@ -369,7 +369,7 @@ static KIODBStore *dbStore;
             if([self.locationManager respondsToSelector:@selector(requestAlwaysAuthorization)]) {
                 // allow explicit control over the type of authorization
                 if(authorizedGeoLocationAlways) {
-                    [self.locationManager requestAlwaysAuthorization];
+                    //[self.locationManager requestAlwaysAuthorization];
                 }
                 else if(authorizedGeoLocationWhenInUse) {
                     [self.locationManager requestWhenInUseAuthorization];
@@ -384,7 +384,7 @@ static KIODBStore *dbStore;
         
         // if, at this point, the location manager is ready to go, we can start location services
         if (self.locationManager) {
-            [self.locationManager startUpdatingLocation];
+            //[self.locationManager startUpdatingLocation];
             KCLog(@"Started location manager.");
         }
     } else {
