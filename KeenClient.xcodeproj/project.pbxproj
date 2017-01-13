@@ -121,7 +121,7 @@
 		E9618E591E095F3E0048B440 /* KeenConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 01BA1B0314E895BC00CF9F84 /* KeenConstants.h */; };
 		E9618E5A1E095F440048B440 /* KIODBStore.h in Headers */ = {isa = PBXBuildFile; fileRef = CA6410D618E37E7C00E53E3C /* KIODBStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9618E5B1E095F4A0048B440 /* KIOQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E63D9EE1AE7356C00E57A17 /* KIOQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9618E601E0963490048B440 /* KeenClientTV.h in Headers */ = {isa = PBXBuildFile; fileRef = E9618E451E095EAC0048B440 /* KeenClientTV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9618E601E0963490048B440 /* KeenClientFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E9618E451E095EAC0048B440 /* KeenClientFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4D3B6021A0D8EB4000825FE /* KIOReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D3B6001A0D8EB4000825FE /* KIOReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4D3B6051A0D8EB4000825FE /* KIOReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D3B6001A0D8EB4000825FE /* KIOReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4D3B6061A0D8EB4000825FE /* KIOReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D3B6011A0D8EB4000825FE /* KIOReachability.m */; };
@@ -228,8 +228,8 @@
 		E9047A2E1E086D880094FCEE /* KeenClient_tvos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeenClient_tvos.h; sourceTree = "<group>"; };
 		E9047A2F1E086D880094FCEE /* KeenClient_tvos.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeenClient_tvos.m; sourceTree = "<group>"; };
 		E9618E351E0959440048B440 /* KeenClientFramework copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "KeenClientFramework copy-Info.plist"; path = "/Users/pavel/source/otter/swift-2.3/madhive-demo/Submodules/OtterSDK/3rdParty/keen-client-ios/KeenClientFramework copy-Info.plist"; sourceTree = "<absolute>"; };
-		E9618E431E095EAC0048B440 /* KeenClientTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeenClientTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9618E451E095EAC0048B440 /* KeenClientTV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeenClientTV.h; sourceTree = "<group>"; };
+		E9618E431E095EAC0048B440 /* KeenClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeenClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9618E451E095EAC0048B440 /* KeenClientFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeenClientFramework.h; sourceTree = "<group>"; };
 		E9618E461E095EAC0048B440 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4D3B6001A0D8EB4000825FE /* KIOReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIOReachability.h; sourceTree = "<group>"; };
 		F4D3B6011A0D8EB4000825FE /* KIOReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIOReachability.m; sourceTree = "<group>"; };
@@ -355,7 +355,7 @@
 				1296396319C10AD200B2B653 /* libKeenClient-Cocoa.a */,
 				3EE9A72C1C59873F00B7B2D9 /* KeenClient.framework */,
 				E9047A2C1E086D880094FCEE /* libKeenClient-tvos.a */,
-				E9618E431E095EAC0048B440 /* KeenClientTV.framework */,
+				E9618E431E095EAC0048B440 /* KeenClient.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -498,7 +498,7 @@
 		E9618E441E095EAC0048B440 /* KeenClientTV */ = {
 			isa = PBXGroup;
 			children = (
-				E9618E451E095EAC0048B440 /* KeenClientTV.h */,
+				E9618E451E095EAC0048B440 /* KeenClientFramework.h */,
 				E9618E461E095EAC0048B440 /* Info.plist */,
 			);
 			path = KeenClientTV;
@@ -591,7 +591,7 @@
 				E9618E531E095F190048B440 /* KIOReachability.h in Headers */,
 				E9618E581E095F3A0048B440 /* KeenProperties.h in Headers */,
 				E9618E551E095F260048B440 /* keen_io_sqlite3ext.h in Headers */,
-				E9618E601E0963490048B440 /* KeenClientTV.h in Headers */,
+				E9618E601E0963490048B440 /* KeenClientFramework.h in Headers */,
 				E9618E541E095F220048B440 /* keen_io_sqlite3.h in Headers */,
 				E9618E591E095F3E0048B440 /* KeenConstants.h in Headers */,
 				E9618E561E095F310048B440 /* HTTPCodes.h in Headers */,
@@ -703,7 +703,7 @@
 			);
 			name = KeenClientTV;
 			productName = KeenClientTV;
-			productReference = E9618E431E095EAC0048B440 /* KeenClientTV.framework */;
+			productReference = E9618E431E095EAC0048B440 /* KeenClient.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1423,7 +1423,7 @@
 				MODULEMAP_FILE = "$(PROJECT_DIR)/Framework/module-tv.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.madhive.KeenClientTV;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = KeenClient;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
@@ -1462,7 +1462,7 @@
 				MODULEMAP_FILE = "$(PROJECT_DIR)/Framework/module-tv.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.madhive.KeenClientTV;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = KeenClient;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
@@ -1717,7 +1717,7 @@
 				MODULEMAP_FILE = "$(PROJECT_DIR)/Framework/module-tv.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.madhive.KeenClientTV;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = KeenClient;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;

@@ -17,12 +17,12 @@ FOUNDATION_EXPORT const unsigned char KeenClientTVVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <KeenClientTV/PublicHeader.h>
 
 
-#import <KeenClientTV/KeenClient.h>
-#import <KeenClientTV/KeenProperties.h>
-#import <KeenClientTV/KeenProperties.h>
+#import <KeenClient/KeenClient.h>
+#import <KeenClient/KeenProperties.h>
+#import <KeenClient/KeenProperties.h>
 
-#import <KeenClientTV/KIODBStore.h>
-#import <KeenClientTV/KIOQuery.h>
-#import <KeenClientTV/KIOReachability.h>
+#import <KeenClient/KIODBStore.h>
+#import <KeenClient/KIOQuery.h>
+#import <KeenClient/KIOReachability.h>
 
-#import <KeenClientTV/HTTPCodes.h>
+#import <KeenClient/HTTPCodes.h>

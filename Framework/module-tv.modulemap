@@ -1,5 +1,5 @@
-framework module KeenClientTV {
-    umbrella header "KeenClientTV.h"
+framework module KeenClient {
+    umbrella header "KeenClientFramework.h"
     export *
     module * { export * }
 }
